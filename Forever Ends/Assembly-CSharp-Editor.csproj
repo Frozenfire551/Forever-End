@@ -92,40 +92,40 @@
     <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Utils\PlayFabGuiFieldHelper.cs" />
     <Compile Include="Assets\PlayFabSdk\Shared\Editor\PlayFabHelp.cs" />
     <Compile Include="Assets\PlayFabSdk\Shared\Models\Editor\MakeSharedSettingsObj.cs" />
-    <None Include="Assets\FacebookSDK\Plugins\Editor\Dependencies.xml" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver.txt" />
     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.95.0.txt" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -316,6 +316,9 @@
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Facebook.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.9f1/Editor/Data/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
@@ -323,79 +326,40 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Editor">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Gameroom">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
     </Reference>
     <Reference Include="FacebookNamedPipeClient">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.IOSResolver_v1.2.95.0">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.95.0.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.JarResolver_v1.2.95.0">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.95.0.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandler">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandlerImpl_v1.2.95.0">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.95.0.dll</HintPath>
-    </Reference>
-    <Reference Include="UDP">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/Plugins/UDP/UDP.dll</HintPath>
-    </Reference>
-    <Reference Include="ChannelPurchase">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityStore">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
-    </Reference>
-    <Reference Include="Editor">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Purchasing.Common">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Stores">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
-    </Reference>
-    <Reference Include="Apple">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
-    </Reference>
-    <Reference Include="FacebookStore">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
-    </Reference>
-    <Reference Include="Security">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
-    </Reference>
-    <Reference Include="Tizen">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
-    </Reference>
-    <Reference Include="winrt">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.PackageManager">
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Assets/PlayServicesResolver/Editor/Google.PackageManager.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/Nik/Documents/Forever Ends Project Files/Forever Ends/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>D:/Users/nicholas.gre6280/Documents/Forever-End/Forever Ends/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -759,10 +723,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{630FFB1E-5A39-25E4-3D72-65AA602337E2}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{97736266-7CA6-BABE-671B-7DB793A6F454}</Project>
       <Name>Assembly-CSharp</Name>
